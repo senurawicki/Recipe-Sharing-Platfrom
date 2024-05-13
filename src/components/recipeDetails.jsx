@@ -20,10 +20,10 @@ const RecipeDetails = ({ recipes }) => {
             <Typography variant="body1">Description: {recipe.description}</Typography>
             <Typography variant="body1">Prep Time: {recipe.prepTime}</Typography>
             <Typography variant="h4">Ingredients:</Typography>
-            <List>
+            <List className="ingredients-list">
               {recipe.ingredients.map((ingredient, index) => (
-                <ListItem key={index}>
-                  <ListItemText primary={ingredient} />
+                <ListItem key={index} className="ingredients-list-item" disablePadding>
+                  <ListItemText primary={ingredient} className="ingredients-text" />
                 </ListItem>
               ))}
             </List>

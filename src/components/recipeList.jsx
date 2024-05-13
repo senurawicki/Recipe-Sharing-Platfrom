@@ -1,12 +1,12 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { Card, CardHeader, CardMedia, CardContent, CardActions, Collapse, Avatar, IconButton, Typography, Pagination } from '@mui/material';
+import { Card, CardHeader, CardMedia, CardContent, CardActions, Collapse, Avatar, IconButton, Typography, Pagination, TextField } from '@mui/material';
 import { red } from '@mui/material/colors';
 import FavoriteIcon from '@mui/icons-material/Favorite';
 import ShareIcon from '@mui/icons-material/Share';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
+import SearchIcon from '@mui/icons-material/Search';
 import '../styles/recipeList.css'; // Import CSS file
-
 
 // Import images for each recipe
 import SpagattiImage from '../assets/recipe/spagatti.jpg'; // Adjust the path accordingly for each image
@@ -113,13 +113,33 @@ const RecipeList = ({ recipes }) => {
     setPage(value);
   };
 
-  // Calculate pagination range
+  // State for search query
+  const [searchQuery, setSearchQuery] = useState('');
+
+  // Filter recipes based on search query
+  const filteredRecipes = recipes.filter(recipe =>
+    recipe.title.toLowerCase().includes(searchQuery.toLowerCase())
+  );
+
+  // Pagination calculation
   const startIndex = (page - 1) * 6;
-  const endIndex = Math.min(startIndex + 6, recipes.length);
-  const paginatedRecipes = recipes.slice(startIndex, endIndex);
+  const endIndex = Math.min(startIndex + 6, filteredRecipes.length);
+  const paginatedRecipes = filteredRecipes.slice(startIndex, endIndex);
 
   return (
     <div className="recipe-list-container">
+      <div className="search-bar">
+        <TextField
+          label="Search recipes"
+          variant="outlined"
+          size="small"
+          value={searchQuery}
+          onChange={(e) => setSearchQuery(e.target.value)}
+          InputProps={{
+            endAdornment: <SearchIcon />,
+          }}
+        />
+      </div>
       <div className="recipe-list">
         {paginatedRecipes.map(recipe => (
           <RecipeCard key={recipe.id} recipe={recipe} />
@@ -127,7 +147,7 @@ const RecipeList = ({ recipes }) => {
       </div>
       <div className="pagination-container">
         <Pagination
-          count={Math.ceil(recipes.length / 6)}
+          count={Math.ceil(filteredRecipes.length / 6)}
           page={page}
           onChange={handleChange}
           variant="outlined"
