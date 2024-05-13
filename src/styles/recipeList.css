@@ -20,7 +20,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 20px; /* Adjust gap between cards */
+    gap: 5px; /* Adjust gap between cards */
   }
   .recipe-list-container {
     display: flex;

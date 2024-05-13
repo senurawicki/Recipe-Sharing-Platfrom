@@ -3,40 +3,36 @@ import { useTheme } from '@mui/material/styles';
 import Box from '@mui/material/Box';
 import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
-import CardMedia from '@mui/material/CardMedia';
 import Avatar from '@mui/material/Avatar';
 import IconButton from '@mui/material/IconButton';
 import Typography from '@mui/material/Typography';
-import SkipPreviousIcon from '@mui/icons-material/SkipPrevious';
-import PlayArrowIcon from '@mui/icons-material/PlayArrow';
-import SkipNextIcon from '@mui/icons-material/SkipNext';
+import { Edit as EditIcon, Delete as DeleteIcon } from '@mui/icons-material';
 import defaultAvatar from '../assets/avatar.png';
-// import '../styles/userProfile.css';
+import { Navigate } from 'react-router-dom';
 
 export default function UserProfile() {
   const theme = useTheme();
 
+  const navigateToEditProfile = () => {
+    return <Navigate to="./editProfile" />;
+  };
+
   return (
-    <Card sx={{ display: 'flex', alignItems: 'center', width: 'fit-content' }}>
+    <Card sx={{ display: 'flex', alignItems: 'center', justifyContent: 'center', width: 'fit-content', margin: 'auto', marginTop: 10 }}>
       <Box sx={{ display: 'flex', flexDirection: 'column' }}>
         <CardContent>
           <Typography component="div" variant="h5">
             User Profile
           </Typography>
-          <Box sx={{ 
-            display: 'flex', 
-            alignItems: 'center', 
-            pb: 10, 
-            width:400, 
-            height:'auto',
-            margin: 'auto',
-          }}>
-
+          <Box sx={{ display: 'flex', alignItems: 'center', justifyContent: 'center', pb: 1, width: 400, height: 'auto', margin: 'auto' }}>
             <Avatar alt="Default Avatar" src={defaultAvatar} className="avatar" />
           </Box>
           <Typography variant="subtitle1"><strong>Username:</strong> N/A</Typography>
           <Typography variant="subtitle1"><strong>Email:</strong> N/A</Typography>
-          {/* Add more user information as needed */}
+          <Box sx={{ display: 'flex', justifyContent: 'center', marginTop: 2 }}>
+            <IconButton aria-label="edit" onClick={navigateToEditProfile}> Edit <EditIcon /></IconButton>
+            <IconButton aria-label="delete"> Delete <DeleteIcon /></IconButton>
+          </Box>
         </CardContent>
       </Box>
     </Card>

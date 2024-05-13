@@ -12,6 +12,9 @@
   }
   
 .avatar{
-    width: 30%;
+    width: 40%;
     height: auto;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
 }

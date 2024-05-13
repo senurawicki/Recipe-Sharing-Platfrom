@@ -12,6 +12,7 @@ import Home from './components/home';
 import LoginPage from './components/login';
 import SignupPage from './components/signup';
 import ScrollToTop from './components/scrooltoTop';
+import EditProfile from './components/editProfile';
 
 const App = () => {
   return (
@@ -27,6 +28,7 @@ const App = () => {
           <Route path="/profile" element={<UserProfile/>} />
           <Route path="/login" element={<LoginPage/>} />
           <Route path="/signup" element={<SignupPage/>} />
+          <Route path="/editProfile" element={<EditProfile/>}/>
         </Routes>
       </div>
     </Router>

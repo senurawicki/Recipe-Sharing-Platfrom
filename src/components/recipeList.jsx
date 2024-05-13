@@ -48,7 +48,7 @@ const RecipeCard = ({ recipe }) => {
 
   return (
     <section className='Recipebody'>
-      <Card className="recipe-card" sx={{ marginBottom: '20px' }}>
+      <Card className="recipe-card" sx={{color:'black' }}>
         {/* Card header */}
         <CardHeader
           avatar={

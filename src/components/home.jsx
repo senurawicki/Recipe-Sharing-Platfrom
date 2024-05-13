@@ -40,7 +40,7 @@ const HomePage = () => {
             animate={{ opacity: 1, y: 0 }} // Animation values when component enters
             exit={{ opacity: 0, y: -50 }} // Animation values when component exits
           >
-            <Typography variant="h2" gutterBottom sx={{ color: 'textPrimary', textShadow: '2px 2px 2px #242424' }}>
+            <Typography variant="h2" gutterBottom sx={{ color: 'white', textShadow: '2px 2px 2px #242424' }}>
               Welcome to Recipe Sharing Platform
             </Typography>
           </motion.div>
@@ -49,7 +49,7 @@ const HomePage = () => {
             animate={{ opacity: 1, y: 0 }} // Animation values when component enters
             exit={{ opacity: 0, y: -50 }} // Animation values when component exits
           >
-            <Typography variant="h6" paragraph sx={{ color: 'textPrimary', textShadow: '1px 1px 1px #000000' }}>
+            <Typography variant="h6" paragraph sx={{ color: 'white', textShadow: '1px 1px 1px #000000' }}>
               Discover and share your favorite recipes with the community.
             </Typography>
           </motion.div>
