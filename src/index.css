@@ -4,10 +4,10 @@
   line-height: 1.5;
   font-weight: 400;
 
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
-
+  /* color-scheme: light dark; */
+  color: rgba(0, 0, 0, 0.87);
+  /* background-color: #242424; */
+  margin-top: 70px;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -24,8 +24,9 @@ a:hover {
 }
 
 body {
+  
   margin: 0;
-  background-color: #d2d2da;
+  /* background-color: #d2d2da; */
   /* display: flex; */
   place-items: center;
   min-width: 320px;

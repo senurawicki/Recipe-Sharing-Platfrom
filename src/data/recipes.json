@@ -14,7 +14,11 @@
         "Add cooked spaghetti to the skillet with the bacon and garlic. Remove from heat.",
         "Quickly pour the egg and cheese mixture over the hot spaghetti, stirring continuously to coat the pasta.",
         "Season with black pepper and salt to taste. Serve immediately."
+        
       ]
+      
+
+      
     },
     {
       "id": 2,
@@ -30,6 +34,7 @@
         "Stir in cream and chopped cilantro. Simmer for a few more minutes.",
         "Serve hot with rice or naan bread."
       ]
+      
     },
     {
       "id": 3,

@@ -11,11 +11,13 @@ import UserProfile from './components/userProfile';
 import Home from './components/home';
 import LoginPage from './components/login';
 import SignupPage from './components/signup';
+import ScrollToTop from './components/scrooltoTop';
 
 const App = () => {
   return (
     <Router>
       <div className="App">
+      <ScrollToTop />
         <Header />
         <Routes> {/* Use Routes component here */}
           <Route path="/" element={<Home/>} />
