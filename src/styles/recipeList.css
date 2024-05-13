@@ -1,0 +1,40 @@
+/* recipe.css */
+.Recipebody {
+    margin: 30px;
+  }
+  
+  .recipe-card {
+    /* margin: 20px;  */
+    max-width: 345px;
+    /* Add more styles as needed */
+  }
+  
+  .recipe-link {
+    text-decoration: none;
+    color: inherit;
+    /* Add more styles as needed */
+  }
+  
+  /* recipeList.css */
+  .recipe-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px; /* Adjust gap between cards */
+  }
+  
+  .pagination {
+    margin-top: 20px; /* Add margin above pagination control */
+  }
+  
+  /* Additional styles for card content */
+  .recipe-card-content {
+    padding: 16px; /* Adjust padding inside card content */
+    height: 200px; /* Set fixed height for card content */
+    overflow: hidden; /* Hide overflow text */
+  }
+  
+  .expand-button {
+    margin-left: auto; /* Align expand button to the right */
+  }
+  

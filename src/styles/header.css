@@ -1,0 +1,70 @@
+/* header.css */
+
+.root {
+    background-color: #ff7043; /* Orange color for food theme */
+  }
+  
+  .logo {
+    display: none;
+  }
+  
+  .menuIcon {
+    color: #fff; /* White color for menu icon */
+  }
+  
+  .siteTitle {
+    color: #fff; /* White color for site title */
+  }
+  
+  .navLinks {
+    display: none;
+  }
+  
+  .userMenu {
+    margin-top: 45px;
+  }
+  
+  .navLinkItem {
+    color: #fff; /* White color for navigation links */
+  }
+  
+  .userAvatar {
+    background-color: #fff; /* White background for user avatar */
+    color: #333;
+  }
+  
+  .userMenuItem {
+    color: #333;
+  }
+  
+  .appBarContainer {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  
+  @media (min-width: 600px) {
+    .logo {
+      display: flex;
+    }
+    
+    .navLinks {
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      flex-grow: 1;
+    }
+  
+    .navLinkItem {
+      margin-right: 20px;
+    }
+  
+    .userMenu {
+      margin-top: 0;
+    }
+  
+    .appBarContainer {
+      padding-left: 24px;
+      padding-right: 24px;
+    }
+  }
+  

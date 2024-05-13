@@ -1,0 +1,115 @@
+
+
+[
+    {
+      "id": 1,
+      "title": "Spaghetti Carbonara",
+      "description": "Classic Italian pasta dish with creamy sauce and crispy bacon",
+      "prepTime": "20 minutes",
+      "ingredients": ["Spaghetti", "Eggs", "Parmesan cheese", "Bacon", "Garlic", "Black pepper", "Salt"],
+      "instructions": [
+        "Cook spaghetti according to package instructions until al dente.",
+        "In a separate bowl, whisk together eggs and grated Parmesan cheese.",
+        "In a skillet, cook diced bacon until crispy. Add minced garlic and cook until fragrant.",
+        "Add cooked spaghetti to the skillet with the bacon and garlic. Remove from heat.",
+        "Quickly pour the egg and cheese mixture over the hot spaghetti, stirring continuously to coat the pasta.",
+        "Season with black pepper and salt to taste. Serve immediately."
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Chicken Tikka Masala",
+      "description": "A flavorful Indian curry dish with tender chicken and creamy tomato sauce",
+      "prepTime": "30 minutes",
+      "ingredients": ["Chicken thighs", "Yogurt", "Tomato sauce", "Onion", "Ginger", "Garlic", "Spices (cumin, coriander, paprika, garam masala, turmeric)", "Cream", "Cilantro"],
+      "instructions": [
+        "Marinate chicken thighs in yogurt and spices for at least 1 hour.",
+        "In a skillet, cook diced onion, ginger, and garlic until softened.",
+        "Add marinated chicken to the skillet and cook until browned on all sides.",
+        "Pour in tomato sauce and simmer until chicken is cooked through.",
+        "Stir in cream and chopped cilantro. Simmer for a few more minutes.",
+        "Serve hot with rice or naan bread."
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Mushroom Risotto",
+      "description": "Creamy Italian rice dish cooked with mushrooms and Parmesan cheese",
+      "prepTime": "40 minutes",
+      "ingredients": ["Arborio rice", "Mushrooms", "Chicken or vegetable broth", "White wine", "Onion", "Garlic", "Butter", "Parmesan cheese", "Fresh thyme", "Salt", "Black pepper"],
+      "instructions": [
+        "In a saucepan, heat chicken or vegetable broth until simmering.",
+        "In a separate pan, sauté diced onion and minced garlic in butter until translucent.",
+        "Add Arborio rice to the pan and cook until slightly toasted.",
+        "Deglaze the pan with white wine, stirring until absorbed.",
+        "Gradually add hot broth to the rice, one ladle at a time, stirring continuously until absorbed.",
+        "Continue this process until the rice is creamy and cooked al dente, about 20-25 minutes.",
+        "Stir in sliced mushrooms, grated Parmesan cheese, and fresh thyme.",
+        "Season with salt and black pepper to taste. Serve hot."
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Beef Tacos",
+      "description": "Classic Mexican street food featuring seasoned beef, salsa, and toppings",
+      "prepTime": "25 minutes",
+      "ingredients": ["Ground beef", "Taco seasoning", "Tortillas", "Lettuce", "Tomatoes", "Onion", "Cheese", "Sour cream", "Salsa", "Guacamole"],
+      "instructions": [
+        "Cook ground beef in a skillet over medium heat until browned. Drain excess fat.",
+        "Add taco seasoning and water according to package instructions. Simmer until thickened.",
+        "Warm tortillas in a separate pan or microwave.",
+        "Assemble tacos by filling each tortilla with seasoned beef, lettuce, diced tomatoes, diced onion, cheese, sour cream, salsa, and guacamole.",
+        "Serve immediately with extra toppings on the side."
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Vegetable Stir-Fry",
+      "description": "Healthy and colorful stir-fried vegetables with tofu in a savory sauce",
+      "prepTime": "25 minutes",
+      "ingredients": ["Tofu", "Broccoli", "Bell peppers", "Carrots", "Snow peas", "Onion", "Garlic", "Ginger", "Soy sauce", "Sesame oil", "Cornstarch", "Brown sugar"],
+      "instructions": [
+        "Press tofu to remove excess moisture, then cut into cubes.",
+        "In a wok or large skillet, heat oil over medium-high heat. Add tofu cubes and cook until golden brown on all sides. Remove from pan and set aside.",
+        "In the same pan, stir-fry sliced onion, minced garlic, and grated ginger until fragrant.",
+        "Add chopped broccoli, sliced bell peppers, julienned carrots, and snow peas to the pan. Stir-fry until vegetables are crisp-tender.",
+        "Return tofu to the pan. In a small bowl, mix soy sauce, sesame oil, cornstarch, and brown sugar to make the sauce. Pour over the tofu and vegetables.",
+        "Cook, stirring constantly, until the sauce thickens and coats the tofu and vegetables.",
+        "Serve hot over cooked rice or noodles."
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Caprese Salad",
+      "description": "Simple Italian salad made with fresh tomatoes, mozzarella cheese, and basil",
+      "prepTime": "10 minutes",
+      "ingredients": ["Tomatoes", "Fresh mozzarella cheese", "Fresh basil leaves", "Extra virgin olive oil", "Balsamic vinegar", "Salt", "Black pepper"],
+      "instructions": [
+        "Slice tomatoes and fresh mozzarella cheese into thick slices.",
+        "Arrange tomato and mozzarella slices on a serving platter, alternating and overlapping them.",
+        "Tuck fresh basil leaves between the tomato and cheese slices.",
+        "Drizzle extra virgin olive oil and balsamic vinegar over the salad.",
+        "Season with salt and black pepper to taste.",
+        "Serve immediately as a refreshing appetizer or side dish."
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Chocolate Chip Cookies",
+      "description": "Classic homemade cookies loaded with chocolate chips and baked to perfection",
+      "prepTime": "15 minutes",
+      "ingredients": ["All-purpose flour", "Baking soda", "Salt", "Unsalted butter", "Granulated sugar", "Brown sugar", "Eggs", "Vanilla extract", "Chocolate chips"],
+      "instructions": [
+        "Preheat oven to 375°F (190°C). Line baking sheets with parchment paper.",
+        "In a small bowl, whisk together flour, baking soda, and salt.",
+        "In a large bowl, cream together softened butter, granulated sugar, and brown sugar until light and fluffy.",
+        "Beat in eggs, one at a time, then stir in vanilla extract.",
+        "Gradually add dry ingredients to the wet ingredients, mixing until well combined.",
+        "Fold in chocolate chips until evenly distributed throughout the dough.",
+        "Drop spoonfuls of dough onto prepared baking sheets, leaving space between each cookie.",
+        "Bake in preheated oven for 8-10 minutes, or until edges are golden brown.",
+        "Allow cookies to cool on baking sheets for a few minutes before transferring to wire racks to cool completely."
+      ]
+    }
+  ]
+  
